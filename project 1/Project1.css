@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+   
+    display: flex;
+    height: 65vh;
+    align-items: center;
+    row-gap: 15px;
+width: 35%;
+    flex-direction: column;
+    padding-top:10px;
+    background-color: rgb(213, 210, 210);
+
+}
+.dogo{
+    display: flex;
+    height: 47vh;
+justify-content: center;
+    
+row-gap: 5px;
+    flex-direction: column;
+    width: 60%;
+
+}
+input{
+    width: 100%;
+    height: 25px;
+    background-color:rgba(247, 244, 244, 0.783);
+    
+}
+.side{
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+
+
+}
+.side input{
+    width: 46%;
+    height:25px;
+    
+}
+.side input ::placeholder{
+    padding-right: 10px;
+    color: black;
+
+}
+button{
+    width: 40%;
+    height: 27px;
+    border-radius: 5px;
+    background:#075B4B; 
+    color: white;
+    cursor: pointer;
+}
